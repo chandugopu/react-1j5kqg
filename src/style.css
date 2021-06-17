@@ -1,0 +1,25 @@
+h1, p {
+  font-family: Lato;
+}
+.container {
+  display : grid;
+  grid-template-columns: auto auto auto;
+  gap : 20px;
+}
+.block{
+  border : 1px solid black;
+}
+.block .img {
+  width : 100%;
+}
+.left {
+  float : left;
+}
+.right {
+  float : right;
+}
+.head {
+  background-color: green;
+  color: white;
+  height : 1em;
+}
